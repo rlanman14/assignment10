@@ -1,0 +1,27 @@
+# Ignore development and testing files and directories
+tests/
+venv/
+__pycache/
+
+# Ignore version control files
+.git/
+.gitignore
+
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore development and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.log
+*.sqlite
+*.env
+
+# Ignore documentation and development notes
+README-dev.md
+
+# Ignore temporary and backup files
+*~
