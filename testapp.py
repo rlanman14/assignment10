@@ -307,11 +307,11 @@ def test_delete_keyval():
 
 
 if __name__ == '__main__':
-    #print('md5: ', test_md5())
-    #print('factorial: ', test_factorial())
-    #print('fibonacci: ', test_fibonacci())
-    #print('is-prime: ', test_is_prime())
-    #print('slack-alert: ', test_slack_alert())
+    print('md5: ', test_md5())
+    print('factorial: ', test_factorial())
+    print('fibonacci: ', test_fibonacci())
+    print('is-prime: ', test_is_prime())
+    print('slack-alert: ', test_slack_alert())
     test_post_keyval()
     test_get_keyval()
     test_put_keyval()
