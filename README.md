@@ -7,4 +7,4 @@
     python testapp.py
 5. To check for logs (either redis or flask)
     - docker container ls (list container ID's)
-    - docker logs <container>    
+    - docker logs <<container ID>>    
