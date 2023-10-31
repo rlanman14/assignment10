@@ -6,6 +6,5 @@
 4. In a separate terminal run the testapp file
     - python testapp.py
 5. To check for logs (either redis or flask containers)
-    - docker container ls (list container ID's)
-    - docker logs redis-con
-    - docker logs flask-con
+    - docker compose logs redis
+    - docker compose logs flask-app
