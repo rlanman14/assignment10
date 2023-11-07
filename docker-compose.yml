@@ -4,7 +4,7 @@ services:
     build: .
     container_name: flask-con
     ports:
-      - "4000:4000"
+      - "4000:80"
     networks:
       - my-network
     depends_on:
@@ -13,7 +13,7 @@ services:
       - REDIS_HOST=redis
       - REDIS_PORT=6379
     logging:
-      driver: json-file
+      driver: gcplogs
       options:
         max-size: 10m
         max-file: "3"
